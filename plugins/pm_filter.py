@@ -1925,11 +1925,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url='https://telegram.me/dev77_xD')
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', url='https://telegram.me/')
         ],[
 	        InlineKeyboardButton('👀 ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ʜᴇʀᴇ 👀', url='https://t.me/HowToVerify_xD/20')
 	    ],[
-	        InlineKeyboardButton('💭 ᴀɴʏ ǫᴜᴇʀʏ', url='https://telegram.me/dev77_xD'),
+	        InlineKeyboardButton('💭 ᴀɴʏ ǫᴜᴇʀʏ', url='https://telegram.me/'),
 	        InlineKeyboardButton('💎 𝗖𝘂𝘀𝘁𝗼𝗺 𝗣𝗹𝗮𝗻 💎', callback_data='other')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start'),
@@ -1966,7 +1966,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "other":
         buttons = [[
-            InlineKeyboardButton('☎️ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ', url='https://telegram.me/dev77_xD')
+            InlineKeyboardButton('☎️ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ', url='https://telegram.me/')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='free')
         ]]
@@ -2021,7 +2021,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "sccode":
         buttons = [[
-            InlineKeyboardButton('💸 ɢᴇᴛ ꜰʀᴏᴍ ʜᴇʀᴇ ✅', url='https://telegram.me/dev77_xD')
+            InlineKeyboardButton('💸 ɢᴇᴛ ꜰʀᴏᴍ ʜᴇʀᴇ ✅', url='https://telegram.me/')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
         ]]
@@ -2296,7 +2296,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "tele":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/Dev77_xD"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="help")
         ]]
         await client.edit_message_media(
@@ -2337,7 +2337,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "share":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/Dev77_xD"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="help")
         ]]
         await client.edit_message_media(
@@ -2353,7 +2353,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "song":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/Dev77_xD"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="help")
         ]]
         await client.edit_message_media(
@@ -2394,7 +2394,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "sticker":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/Dev77_xD"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="help")
         ]]
         await client.edit_message_media(
@@ -2410,8 +2410,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "english_info":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/Dev77_xD"),
-	    InlineKeyboardButton("♻️ ꜱᴛᴀᴛᴜꜱ ♻️", callback_data="stats"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="start")
         ]]
         await client.edit_message_media(
@@ -2428,7 +2427,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "dsclr":
         btn = [[
-            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/Dev77_xD"),
+            InlineKeyboardButton("📞 ᴄᴏɴᴛᴀᴄᴛ 🐍", url="telegram.me/"),
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="start")
         ]]
         await client.edit_message_media(
@@ -2663,7 +2662,6 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
             cap = f"<b><blockquote>🗄️ ꜰɪʟᴇꜱ ꜰᴏʀ {search}</blockquote></b>"
         else:
             cap = f"<b><blockquote>🗄️ ꜰɪʟᴇꜱ ꜰᴏʀ {search}</blockquote></b>"
-            cap+="<b><u><blockquote>🍿 ʏᴏᴜʀ ꜰɪʟᴇꜱ 👇</blockquote></u></b>\n\n"
             for file in files:
                 cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
 
