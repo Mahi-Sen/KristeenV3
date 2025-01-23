@@ -12,7 +12,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', " ")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://envs.sh/YI-.jpg https://envs.sh/gRJ.jpg https://envs.sh/gRo.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/glO.jpg https://envs.sh/gRJ.jpg https://envs.sh/gRo.jpg https://envs.sh/glm.jpg https://envs.sh/glM.jpg https://envs.sh/glX.jpg https://envs.sh/gly.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/gR7.jpg'))
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/gR7.jpg')).split()
 
