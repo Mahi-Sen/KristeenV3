@@ -12,9 +12,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', " ")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://envs.sh/g74.jpg https://envs.sh/g7U.jpg https://envs.sh/g7l.jpg https://envs.sh/g7k.jpg https://envs.sh/g77.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/gR7.jpg'))
-PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/gR7.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/fDq.jpg')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/fDq.jpg'))
+PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/fDq.jpg')).split()
 
 # Admins & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8033184870 6433510598').split()] # For Multiple Id Use One Space Between Each.
