@@ -84,7 +84,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'Dev_Clone_Test') # Pub
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://telegram.me/+ClB2p6n8zU9kZDc1')
+GRP_LNK = environ.get('GRP_LNK', 'https://telegram.me/+LGFFsf2VvJszMTc1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://telegram.me/mahi_filam_studios')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Suport_Dev77_xD') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://telegram.me/')
